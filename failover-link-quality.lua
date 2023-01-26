@@ -8,7 +8,7 @@
 # bucketSize - maximal difference between successful pings and failed pings
 # failThreshold - difference when connection is marked as failed
 # recoveryThreshold - difference when connection is marked as recovered
-# pingCount - ping count for every script run
+# pingCount - ping count for every script run - DO NOT USE LESS THAN 3 IN FIRMWARE 7.0 - 7.6 - there is bug in Mikrotik firmware, reported to Mikrotik
 # activeDistance - distance for active route
 # disableDistance - distance for disabled routine
 
