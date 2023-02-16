@@ -12,6 +12,10 @@
 # activeDistance - distance for active route
 # disableDistance - distance for disabled routine
 
+	
+# all ok(difference = 0)  - - >  failThreshold(difference = 15) = switch ISP - - > bucketSize(do not count more difference) - >
+# all ok(difference = 0)  < - -  recovery(difference =5 ) = switch back to primary < - - - - - - - - - - - - - - -  - - -  -  <
+	
 :local bucketSize 25 
 :local failThreshold 15 
 :local recoveryThreshold 5 
